@@ -1,8 +1,6 @@
 .logo {
     height: auto;
-    max-height: 100px;
-    width: auto;
-    max-width: 25rem;
+    width: 31rem;
 }
 
 .flexContainer {
@@ -12,9 +10,13 @@
 }
 
 .navButton {
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .padding {
-    padding: 1rem 2rem;
+    padding: 2rem;
+}
+
+.bold {
+    font-weight: bold;
 }

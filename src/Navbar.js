@@ -11,7 +11,7 @@ const Navbar = () => {
             <img src={logo} className={styles.logo} alt="CommerceBear Logo" />
           </a>
         </div>
-        <div className={styles.flexContainer}>
+        <div className={`${styles.flexContainer} ${styles.bold}`}>
           <NavLinks />
           <a href="/" className={styles.navButton}>
             Get Started

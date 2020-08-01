@@ -3,5 +3,9 @@
 }
 
 .list > *:not(:first-child) {
-    margin-left: 1rem;
+    margin-left: 3rem;
+}
+
+.fontColor {
+    color: #1c1c1c;
 }
