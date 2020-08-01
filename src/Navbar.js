@@ -1,4 +1,5 @@
 import React from "react";
+import NavLinks from './NavLinks';
 import logo from "./assets/logo.png";
 
 const Navbar = () => {
@@ -9,16 +10,8 @@ const Navbar = () => {
                     <img src={logo} alt="CommerceBear Logo" />
                 </a>
             </div>
-            <ul>
-                <li>Solutions</li>
-                <li>Why Bear?</li>
-                <li>About</li>
-                <li>Pricing</li>
-                <li>FAQ</li>
-                <li>
-                    <a href="/">Get Started</a>
-                </li>
-            </ul>
+            <NavLinks />
+            <a href="/">Get Started</a>
         </nav>
     );
 };

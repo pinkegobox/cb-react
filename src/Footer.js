@@ -1,7 +1,12 @@
 import React from 'react';
+import NavLinks from './NavLinks';
 
 const Footer = () => {
-    return <footer>Footer</footer>;
+    return (
+        <footer>
+            <NavLinks />
+        </footer>
+    );
 };
 
 export default Footer;
