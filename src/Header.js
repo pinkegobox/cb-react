@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <Navbar />
-            Header
+            <h1>Multichannel ecommerce designed for furniture manufacturers.</h1>
         </header>
     );
 };
