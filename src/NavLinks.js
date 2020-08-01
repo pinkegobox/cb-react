@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './NavLinks.module.css';
 
 const NavLinks = () => {
     return (
-        <ul>
+        <ul className={styles.list}>
             <li>Solutions</li>
             <li>Why Bear?</li>
             <li>About</li>
