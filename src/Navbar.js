@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 
 const Navbar = () => {
     return (
-      <nav className={styles.flexContainer}>
+      <nav className={`${styles.flexContainer} ${styles.padding}`}>
         <div>
           <a href="/">
             <img src={logo} className={styles.logo} alt="CommerceBear Logo" />
@@ -13,7 +13,9 @@ const Navbar = () => {
         </div>
         <div className={styles.flexContainer}>
           <NavLinks />
-          <a href="/">Get Started</a>
+          <a href="/" className={styles.navButton}>
+            Get Started
+          </a>
         </div>
       </nav>
     );

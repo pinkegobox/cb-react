@@ -2,10 +2,19 @@
     height: auto;
     max-height: 100px;
     width: auto;
-    max-width: 100%;
+    max-width: 25rem;
 }
 
 .flexContainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.navButton {
+    margin-left: 1rem;
+}
+
+.padding {
+    padding: 1rem 2rem;
 }
