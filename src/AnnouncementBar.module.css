@@ -1,0 +1,30 @@
+.container {
+    background-color: #545759;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.closeAnnoucement {
+    background-color: rgba(0,0,0,.15);
+    height: 100%;
+    width: 3.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeAnnoucement:after {
+    content: '×';
+    display: block;
+    font-size: 1.7rem;
+    font-family: helvetica,arial,sans-serif;
+    font-weight: normal;
+}

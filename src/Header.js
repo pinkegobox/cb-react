@@ -6,8 +6,8 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header className={styles.banner}>
-      <AnnouncementBar />
       <div className={styles.content}>
+        <AnnouncementBar />
         <Navbar />
         <div className={styles.headingContainer}>
           <h1 className={`wrapper ${styles.h1}`}>

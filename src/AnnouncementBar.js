@@ -1,8 +1,15 @@
 import React from "react";
+import styles from "./AnnouncementBar.module.css";
 
 const AnnouncementBar = () => {
     return (
-      <div>
+      <div className={styles.container}>
+        <span
+          className={styles.closeAnnoucement}
+          tabindex="0"
+          role="button"
+          aria-label="Close Announcement"
+        ></span>
         <p>
           <span role="img" aria-label="confetti emoji">
             🎉
