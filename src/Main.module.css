@@ -3,16 +3,16 @@
     color: #545759;
 }
 
-.h2 {
-    line-height: 1.3;
-    font-size: 2.5rem;
+.mainContainer > *:not(:last-child) {
+    margin-bottom: 2.5rem;
 }
 
 .desc {
     padding: 0 3rem;
 }
 
-.desc > *:not(:last-child) {
+.h2 {
+    line-height: 1.3;
     margin-bottom: 3rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .learnMore h2 {
-    margin: 5rem 0 6rem;  
+    margin: 5rem 0;
 }
 
 .learnMore a {
