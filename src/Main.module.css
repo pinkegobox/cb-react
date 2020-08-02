@@ -23,8 +23,12 @@
     height: 1px;
 }
 
-.learnMore h2 {
+.learnMore {
     margin: 5rem 0;
+}
+
+.learnMore .h2 {
+    margin-bottom: 5rem;
 }
 
 .learnMore a {
