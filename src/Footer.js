@@ -1,8 +1,8 @@
 import React from "react";
 import NavLinks from "./NavLinks";
 import styles from "./Footer.module.css";
+import SocialLink from "./SocialLink";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
   faInstagram,
@@ -20,28 +20,18 @@ const Footer = () => {
           <p>USA +1 929 232 2327</p>
         </div>
         <div className={styles.socialLinks}>
-          <a
-            href="http://linkedin.com/company/commercebear"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="This is an external link (opens in a new tab)"
-          >
-            <FontAwesomeIcon icon={faLinkedinIn} size="md" />
-          </a>
-          <a
-            href="https://www.instagram.com/commercebear/"
-            rel="noopener noreferrer"
-            aria-label="This is an external link (opens in a new tab)"
-          >
-            <FontAwesomeIcon icon={faInstagram} size="md" />
-          </a>
-          <a
-            href="https://twitter.com/commercebear"
-            rel="noopener noreferrer"
-            aria-label="This is an external link (opens in a new tab)"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="md" />
-          </a>
+          <SocialLink
+            link={"http://linkedin.com/company/commercebear"}
+            icon={faLinkedinIn}
+          />
+          <SocialLink
+            link={"https://www.instagram.com/commercebear/"}
+            icon={faInstagram}
+          />
+          <SocialLink
+            link={"https://twitter.com/commercebear"}
+            icon={faTwitter}
+          />
         </div>
         <p className={styles.mailUpdates}>
           <a href="/">Click here</a> to join our growing industry following and
