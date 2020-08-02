@@ -20,14 +20,33 @@ const Footer = () => {
           <p>USA +1 929 232 2327</p>
         </div>
         <div className={styles.socialLinks}>
-          <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
-          <FontAwesomeIcon icon={faInstagram} size="lg" />
-          <FontAwesomeIcon icon={faTwitter} size="lg" />
+          <a
+            href="http://linkedin.com/company/commercebear"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="This is an external link (opens in a new tab)"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+          </a>
+          <a
+            href="https://www.instagram.com/commercebear/"
+            rel="noopener noreferrer"
+            aria-label="This is an external link (opens in a new tab)"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
+          <a
+            href="https://twitter.com/commercebear"
+            rel="noopener noreferrer"
+            aria-label="This is an external link (opens in a new tab)"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
+          </a>
         </div>
         <div>
           <p>
-            <a href="/">Click here</a> to join our growing industry following and
-            stay up to date with all things CommerceBear.
+            <a href="/">Click here</a> to join our growing industry following
+            and stay up to date with all things CommerceBear.
           </p>
           <p>© 2020 CommerceBear. All Rights Reserved</p>
         </div>

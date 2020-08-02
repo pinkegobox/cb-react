@@ -4,7 +4,7 @@
     color: #545759;
 }
 
-.footerContainer li {
+.footerContainer li, .socialLinks a {
     color: #1c1c1c;
 }
 
