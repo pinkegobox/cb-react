@@ -1,0 +1,24 @@
+.featuresList {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.featuresList > * {
+    text-align: left;
+}
+
+.featuresList > li {
+    display: flex;
+}
+
+.featuresList img {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+.featuresList h3 {
+    font-size: 2.5rem;
+}
