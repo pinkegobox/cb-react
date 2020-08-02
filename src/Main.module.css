@@ -23,3 +23,7 @@
 .featuresList > * {
     text-align: left;
 }
+
+.featuresList img {
+    width: 10rem;
+}
