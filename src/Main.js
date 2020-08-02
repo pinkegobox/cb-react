@@ -1,6 +1,7 @@
 import React from "react";
 import ecommerce from "./assets/ecommerce.png";
 import Features from "./Features";
+import Button from "./Button";
 import styles from "./Main.module.css";
 
 const Main = () => {
@@ -17,8 +18,12 @@ const Main = () => {
         <h2>Designed to drive sales and automate operations.</h2>
         <Features />
         <hr />
-        <h2>From start to scale, say hello to your next chapter of growth.</h2>
-        <a href="/">Talk to us to learn more</a>
+        <div className={styles.learnMore}>
+          <h2>
+            From start to scale, say hello to your next chapter of growth.
+          </h2>
+          <Button text="Talk to us to learn more" padding="2rem 3rem" />
+        </div>
       </main>
     );
 };

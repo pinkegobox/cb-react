@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className={`${styles.flexContainer} ${styles.bold}`}>
           <NavLinks />
-          <Button text="Get Started" />
+          <Button text="Get Started" padding="1.5rem 2rem" />
         </div>
       </nav>
     );

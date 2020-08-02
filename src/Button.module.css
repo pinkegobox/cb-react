@@ -1,7 +1,7 @@
 .button {
     color: #fff;
     background-color: rgba(46,25,112,.63);
-    padding: 1.2rem 2.3rem;
     border-radius: 300px;
     letter-spacing: 2px;
+    font-weight: bold;
 }
