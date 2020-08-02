@@ -3,7 +3,7 @@ import styles from './NavLinks.module.css';
 
 const NavLinks = () => {
     return (
-      <ul className={`${styles.list} ${styles.fontColor}`}>
+      <ul className={styles.list}>
         <li>
           <a href="/">Solutions</a>
         </li>

@@ -9,7 +9,3 @@
 .list > *:not(:first-child) {
     margin-right: 3rem;
 }
-
-.fontColor {
-    color: #1c1c1c;
-}
