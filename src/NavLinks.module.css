@@ -2,8 +2,12 @@
     display: flex;
 }
 
+.list > *:first-child {
+    margin-right: 3rem;
+}
+
 .list > *:not(:first-child) {
-    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .fontColor {

@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinks from './NavLinks';
+import Button from './Button';
 import logo from "./assets/logo.png";
 import styles from "./Navbar.module.css";
 
@@ -13,9 +14,7 @@ const Navbar = () => {
         </div>
         <div className={`${styles.flexContainer} ${styles.bold}`}>
           <NavLinks />
-          <a href="/" className={styles.navButton}>
-            Get Started
-          </a>
+          <Button text="Get Started" />
         </div>
       </nav>
     );
