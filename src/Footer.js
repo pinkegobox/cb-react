@@ -43,13 +43,11 @@ const Footer = () => {
             <FontAwesomeIcon icon={faTwitter} size="lg" />
           </a>
         </div>
-        <div>
-          <p>
-            <a href="/">Click here</a> to join our growing industry following
-            and stay up to date with all things CommerceBear.
-          </p>
-          <p>© 2020 CommerceBear. All Rights Reserved</p>
-        </div>
+        <p className={styles.mailUpdates}>
+          <a href="/">Click here</a> to join our growing industry following and
+          stay up to date with all things CommerceBear.
+        </p>
+        <p>© 2020 CommerceBear. All Rights Reserved</p>
       </div>
     </footer>
   );

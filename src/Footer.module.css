@@ -1,6 +1,6 @@
 .footerContainer {
     background-color: #F5F5F5;
-    padding: 64px 32px;
+    padding: 3rem 3.2rem 6.4rem;
     color: #545759;
 }
 
@@ -8,11 +8,23 @@
     color: #1c1c1c;
 }
 
-.contact > *:not(:last-child) {
-    margin-bottom: 1rem;
+.contact {
+    margin-top: 6rem;
+}
+
+.contact > *:not(:last-child), .mailUpdates {
+    margin-bottom: 2rem;
+}
+
+.socialLinks {
+    margin: 3rem 0;
 }
 
 .socialLinks > *:not(:last-child) {
     margin-right: 1rem;
 }
 
+.mailUpdates a {
+    border-bottom: 1px solid #545759;
+    font-weight: bold;
+}
