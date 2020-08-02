@@ -22,35 +22,46 @@ const Main = () => {
         <ul className={styles.featuresList}>
           <li>
             <img src={multichannel} alt="" />
-            <h3>Multi Channel Publishing</h3>
-            <p>
-              Fully built-out product data and content deployed to all channels
-            </p>
-          </li>
-          <li>
-            <img src={autoPromotions} alt="" />
-            <h3>Automated Promotions</h3>
-            <p>
-              Full setup and optimization of unpaid promotions across all
-              channels
-            </p>
-          </li>
-          <li>
-            <img src={channelSetup} alt="" />
-            <h3>Channel Setup</h3>
-            <p>Channel Setup</p>
+            <div>
+              <h3>Multi Channel Publishing</h3>
+              <p>
+                Fully built-out product data and content deployed to all
+                channels
+              </p>
+            </div>
           </li>
           <li>
             <img src={inventoryApp} alt="" />
-            <h3>Inventory App</h3>
-            <p>Automated multi-marketplace inventory management</p>
+            <div>
+              <h3>Inventory App</h3>
+              <p>Automated multi-marketplace inventory management</p>
+            </div>
           </li>
           <li>
-              <img src={supportPlus} alt=""/>
-            <h3>Support Plus</h3>
-            <p>
-              Troubleshooting, insight, and best practices to help you scale
-            </p>
+            <img src={autoPromotions} alt="" />
+            <div>
+              <h3>Automated Promotions</h3>
+              <p>
+                Full setup and optimization of unpaid promotions across all
+                channels
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src={supportPlus} alt="" />
+            <div>
+              <h3>Support Plus</h3>
+              <p>
+                Troubleshooting, insight, and best practices to help you scale
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src={channelSetup} alt="" />
+            <div>
+              <h3>Channel Setup</h3>
+              <p>Channel Setup</p>
+            </div>
           </li>
         </ul>
         <hr />
