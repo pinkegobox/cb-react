@@ -1,9 +1,10 @@
 import React from "react";
 import ecommerce from "./assets/ecommerce.png";
+import styles from "./Main.module.css";
 
 const Main = () => {
     return (
-        <main>
+        <main className={`wrapper ${styles.mainContainer}`}>
             <h2>
                 Generate new revenue, profits, and establish an effective
                 omni-channelbusiness.

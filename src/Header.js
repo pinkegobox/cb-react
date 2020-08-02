@@ -8,7 +8,7 @@ const Header = () => {
       <div className={styles.content}>
         <Navbar />
         <div className={styles.headingContainer}>
-          <h1 className={`${styles.wrapper} ${styles.h1}`}>
+          <h1 className={`wrapper ${styles.h1}`}>
             Multichannel ecommerce designed for furniture manufacturers.
           </h1>
         </div>
