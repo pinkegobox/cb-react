@@ -17,7 +17,7 @@ const Main = () => {
         <img src={ecommerce} alt="" />
         <h2>Designed to drive sales and automate operations.</h2>
         <Features />
-        <hr />
+        <hr className={styles.horizontalRule} />
         <div className={styles.learnMore}>
           <h2>
             From start to scale, say hello to your next chapter of growth.
