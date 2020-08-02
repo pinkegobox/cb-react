@@ -26,21 +26,21 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="This is an external link (opens in a new tab)"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+            <FontAwesomeIcon icon={faLinkedinIn} size="md" />
           </a>
           <a
             href="https://www.instagram.com/commercebear/"
             rel="noopener noreferrer"
             aria-label="This is an external link (opens in a new tab)"
           >
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
+            <FontAwesomeIcon icon={faInstagram} size="md" />
           </a>
           <a
             href="https://twitter.com/commercebear"
             rel="noopener noreferrer"
             aria-label="This is an external link (opens in a new tab)"
           >
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+            <FontAwesomeIcon icon={faTwitter} size="md" />
           </a>
         </div>
         <p className={styles.mailUpdates}>
