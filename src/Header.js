@@ -7,23 +7,31 @@ class Header extends Component {
   constructor() {
     super();
     this.state = {
-      showAnnouncement: true,
+      isFirstVisit: true,
+    };
+  }
+
+  //checks if a value exists in isFirstVisit indicating whether the user has visited the page & interacted with the announcement bar before
+  //if the user has, then update the state of isFirstVisit to false to prevent announcement bar from appearing again
+  componentDidMount() {
+    if (localStorage.getItem("isFirstVisit")) {
+      this.setState({ isFirstVisit: false });
     }
   }
 
+  //once user clicks element, data about the user's visit is stored on their browser through localStorage
   handleClick = () => {
-    alert('you clicked me');
     this.setState({
-      showAnnouncement: false,
-    })
-  }
+      isFirstVisit: false,
+    });
+    localStorage.setItem("isFirstVisit", false);
+  };
 
   render() {
-    console.log(this)
     return (
       <header className={styles.banner}>
         <div className={styles.content}>
-          {this.state.showAnnouncement ? (
+          {this.state.isFirstVisit ? (
             <AnnouncementBar close={this.handleClick} />
           ) : null}
           <Navbar />
