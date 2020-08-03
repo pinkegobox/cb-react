@@ -5,12 +5,6 @@ import styles from "./Modal.module.css";
 const Modal = (props) => {
   return (
     <div className={styles.container}>
-      {/* <span
-        className={styles.closeAnnoucement}
-        tabIndex="0"
-        role="button"
-        aria-label="Close Announcement"
-      ></span> */}
       <CloseButton close={props.close} />
       <h2 className={styles.h2}>Don't miss a thing.</h2>
       <p className={styles.desc}>
@@ -25,6 +19,5 @@ const Modal = (props) => {
     </div>
   );
 };
-
 
 export default Modal;
