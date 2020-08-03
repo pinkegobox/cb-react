@@ -43,17 +43,21 @@ class Header extends Component {
   };
 
   render() {
+    const { showModal, showBar } = this.state;
+
+    const renderModal = showModal ? (
+      <Modal close={this.handleModalClick} />
+    ) : null;
+
+    const renderBar = showBar ? (
+      <AnnouncementBar close={this.handleBarClick} />
+    ) : null;
+
     return (
       <header className={styles.banner}>
-        {this.state.showModal ? (
-          <Modal close={this.handleModalClick} />
-        ) : null}
-
         <div className={styles.content}>
-          {this.state.showBar ? (
-            <AnnouncementBar close={this.handleBarClick} />
-          ) : null}
-
+          {renderModal}
+          {renderBar}
           <Navbar />
           <div className={styles.headingContainer}>
             <h1 className={`wrapper ${styles.h1}`}>
