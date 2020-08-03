@@ -1,16 +1,11 @@
 import React from "react";
+import CloseButton from "./CloseButton";
 import styles from "./AnnouncementBar.module.css";
 
 const AnnouncementBar = (props) => {
     return (
       <div className={styles.container}>
-        <span
-          className={styles.closeAnnoucement}
-          tabIndex="0"
-          role="button"
-          aria-label="Close Announcement"
-          onClick={props.close}
-        ></span>
+        <CloseButton close={props.close} />
         <p>
           <span role="img" aria-label="confetti emoji">
             🎉

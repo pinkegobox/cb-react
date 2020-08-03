@@ -10,23 +10,12 @@
     z-index: 1;
 }
 
-.closeAnnoucement {
+.container span {
     background-color: rgba(0,0,0,.15);
     height: 100%;
     width: 3.5rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.closeAnnoucement:after {
-    content: '×';
-    display: block;
+.container span:after {
     font-size: 1.7rem;
-    font-family: helvetica,arial,sans-serif;
-    font-weight: normal;
-    cursor: pointer;
 }
