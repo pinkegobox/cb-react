@@ -4,6 +4,7 @@ import AnnouncementBar from "./AnnouncementBar/AnnouncementBar";
 import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
+import styles from './App.module.css'
 import './App.css';
 
 class App extends Component {
@@ -45,6 +46,8 @@ class App extends Component {
   render() {
    const { isModalVisible, isBarVisible } = this.state;
 
+   const renderOverlay = isModalVisible ? <div className={styles.overlay} /> : null;
+
    const renderModal = isModalVisible ? (
      <Modal close={this.handleModalClick} />
    ) : null;
@@ -55,6 +58,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        {renderOverlay}
         {renderModal}
         {renderBar}
         <Header />
