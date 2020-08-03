@@ -9,7 +9,7 @@ const SocialLink = (props) => {
         rel="noopener noreferrer"
         aria-label="This is an external link (opens in a new tab)"
       >
-        <FontAwesomeIcon icon={props.icon} size="md" />
+        <FontAwesomeIcon icon={props.icon} size="sm" />
       </a>
     );
 };
