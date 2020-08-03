@@ -8,20 +8,20 @@ class Header extends Component {
   constructor() {
     super();
     this.state = {
-      showBar: true,
-      showModal: true,
+      isBarVisible: true,
+      isModalVisible: true,
     };
   }
 
   //checks if a value exists in isFirstVisit indicating whether the user has visited the page & interacted with the announcement bar before
   //if the user has, then update the state of isFirstVisit to false to prevent announcement bar from appearing again
   componentDidMount() {
-    if (localStorage.getItem("showBar")) {
-      this.setState({ showBar: false });
+    if (localStorage.getItem("isBarVisible")) {
+      this.setState({ isBarVisible: false });
     }
 
-    if (localStorage.getItem("showModal")) {
-      this.setState({ showModal: false });
+    if (localStorage.getItem("isModalVisible")) {
+      this.setState({ isModalVisible: false });
     } 
   }
 
@@ -29,27 +29,27 @@ class Header extends Component {
   handleModalClick = (e) => {
     console.log(e.target);
     this.setState({
-      showModal: false,
+      isModalVisible: false,
     });
-    localStorage.setItem("showModal", false);
+    localStorage.setItem("isModalVisible", false);
   };
 
   handleBarClick = (e) => {
     console.log(e.target);
     this.setState({
-      showBar: false,
+      isBarVisible: false,
     });
-    localStorage.setItem("showBar", false);
+    localStorage.setItem("isBarVisible", false);
   };
 
   render() {
-    const { showModal, showBar } = this.state;
+    const { isModalVisible, isBarVisible } = this.state;
 
-    const renderModal = showModal ? (
+    const renderModal = isModalVisible ? (
       <Modal close={this.handleModalClick} />
     ) : null;
 
-    const renderBar = showBar ? (
+    const renderBar = isBarVisible ? (
       <AnnouncementBar close={this.handleBarClick} />
     ) : null;
 
