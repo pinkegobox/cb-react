@@ -3,7 +3,7 @@ import styles from './Button.module.css';
 
 const Button = (props) => {
   return (
-    <a href="/" className={styles.button} style={{padding: props.padding}}>
+    <a href={props.path} className={styles.button} style={{padding: props.padding}}>
       {props.text}
     </a>
   );

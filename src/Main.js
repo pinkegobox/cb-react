@@ -24,7 +24,7 @@ const Main = () => {
           <h2 className={styles.h2}>
             From start to scale, say hello to your next chapter of growth.
           </h2>
-          <Button text="Talk to us to learn more" padding="2rem 3rem" />
+          <Button text="Talk to us to learn more" padding="2rem 3rem" path={"https://calendly.com/sam-bear/30min?back=1&month=2020-08"}/>
         </div>
       </main>
     );

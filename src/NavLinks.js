@@ -5,19 +5,19 @@ const NavLinks = () => {
     return (
       <ul className={styles.list}>
         <li>
-          <a href="/">Solutions</a>
+          <a href="https://commercebear.com/publishing">Solutions</a>
         </li>
         <li>
-          <a href="/">Why Bear?</a>
+          <a href="https://commercebear.com/whybear">Why Bear?</a>
         </li>
         <li>
-          <a href="/">About</a>
+          <a href="https://commercebear.com/whoweare">About</a>
         </li>
         <li>
-          <a href="/">Pricing</a>
+          <a href="https://commercebear.com/pricing">Pricing</a>
         </li>
         <li>
-            <a href="/">FAQ</a>
+          <a href="https://commercebear.com/faq">FAQ</a>
         </li>
       </ul>
     );

@@ -34,8 +34,16 @@ const Footer = () => {
           />
         </div>
         <p className={styles.mailUpdates}>
-          <a href="/">Click here</a> to join our growing industry following and
-          stay up to date with all things CommerceBear.
+          <a
+            href="https://mailchi.mp/commercebear/updates"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="This is an external link (opens in a new tab)"
+          >
+            Click here
+          </a>{" "}
+          to join our growing industry following and stay up to date with all
+          things CommerceBear.
         </p>
         <p>© 2020 CommerceBear. All Rights Reserved</p>
       </div>
