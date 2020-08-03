@@ -1,11 +1,11 @@
 import React from "react";
-import multichannel from "./assets/multichannel.jpeg";
-import autoPromotions from "./assets/automated-promotions.png";
-import channelSetup from "./assets/channel-setup.png";
-import inventoryApp from "./assets/inventory-app.png";
-import supportPlus from "./assets/support-plus.png";
-import FeatureItem from "./FeatureItem";
-import styles from "./Features.module.css";
+import multichannel from "../assets/multichannel.jpeg";
+import autoPromotions from "../assets/automated-promotions.png";
+import channelSetup from "../assets/channel-setup.png";
+import inventoryApp from "../assets/inventory-app.png";
+import supportPlus from "../assets/support-plus.png";
+import FeatureItem from "../FeatureItem/FeatureItem";
+import styles from "../Features/Features.module.css";
 
 const Features = () => {
     return (

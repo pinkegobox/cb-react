@@ -1,8 +1,8 @@
 import React from "react";
-import ecommerce from "./assets/ecommerce.png";
-import Features from "./Features";
-import Button from "./Button";
-import styles from "./Main.module.css";
+import ecommerce from "../assets/ecommerce.png";
+import Features from "../Features/Features";
+import Button from "../Button/Button";
+import styles from "../Main/Main.module.css";
 
 const Main = () => {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./FeatureItem.module.css";
+import styles from "../FeatureItem/FeatureItem.module.css";
 
 const FeatureItem = (props) => {
     return (

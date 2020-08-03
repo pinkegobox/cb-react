@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './NavLinks.module.css';
+import styles from '../NavLinks/NavLinks.module.css';
 
 const NavLinks = () => {
     return (

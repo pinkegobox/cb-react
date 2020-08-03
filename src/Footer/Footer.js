@@ -1,7 +1,7 @@
 import React from "react";
-import NavLinks from "./NavLinks";
-import styles from "./Footer.module.css";
-import SocialLink from "./SocialLink";
+import NavLinks from "../NavLinks/NavLinks";
+import styles from "../Footer/Footer.module.css";
+import SocialLink from "../SocialLink/SocialLink";
 
 import {
   faLinkedinIn,

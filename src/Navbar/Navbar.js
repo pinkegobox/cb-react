@@ -1,8 +1,8 @@
 import React from "react";
-import NavLinks from './NavLinks';
-import Button from './Button';
-import logo from "./assets/logo.png";
-import styles from "./Navbar.module.css";
+import NavLinks from '../NavLinks/NavLinks';
+import Button from '../Button/Button';
+import logo from "../assets/logo.png";
+import styles from "../Navbar/Navbar.module.css";
 
 const Navbar = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
-import CloseButton from "./CloseButton";
-import styles from "./AnnouncementBar.module.css";
+import CloseButton from "../CloseButton/CloseButton";
+import styles from "../AnnouncementBar/AnnouncementBar.module.css";
 
 const AnnouncementBar = (props) => {
     return (
