@@ -1,9 +1,17 @@
 import React from "react";
+import CloseButton from "./CloseButton";
 import styles from "./Modal.module.css";
 
 const Modal = () => {
   return (
     <div className={styles.container}>
+      {/* <span
+        className={styles.closeAnnoucement}
+        tabIndex="0"
+        role="button"
+        aria-label="Close Announcement"
+      ></span> */}
+      <CloseButton />
       <h2>Don't miss a thing.</h2>
       <p>
         Sign up for our mailing list and get industry updates, live events, and
