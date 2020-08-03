@@ -26,16 +26,14 @@ class Header extends Component {
   }
 
   //once user clicks element, data about the user's visit is stored on their browser through localStorage
-  handleModalClick = (e) => {
-    console.log(e.target);
+  handleModalClick = () => {
     this.setState({
       isModalVisible: false,
     });
     localStorage.setItem("isModalVisible", false);
   };
 
-  handleBarClick = (e) => {
-    console.log(e.target);
+  handleBarClick = () => {
     this.setState({
       isBarVisible: false,
     });
