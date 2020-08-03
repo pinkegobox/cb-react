@@ -1,0 +1,17 @@
+.container {
+    max-width: 300px;
+    height: auto;
+    margin: 4%;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgba(121,121,121,.17);
+    outline: 1px solid rgba(121,121,121,.1);
+    padding: 5rem 4rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.container > *:not(:last-child) {
+    margin-bottom: 2rem;
+}

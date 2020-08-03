@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./Modal.module.css";
 
 const Modal = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h2>Don't miss a thing.</h2>
       <p>
         Sign up for our mailing list and get industry updates, live events, and
