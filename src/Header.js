@@ -13,8 +13,8 @@ class Header extends Component {
     };
   }
 
-  //checks if a value exists in isFirstVisit indicating whether the user has visited the page & interacted with the announcement bar before
-  //if the user has, then update the state of isFirstVisit to false to prevent announcement bar from appearing again
+  //checks if a value exists in isBarVisible and/or isModalVisible indicating whether the user has visited the page & interacted with the bar and modal before
+  //if the user has, then update the state of isBarVisible and/or isModalVisible to false to prevent announcement bar & modal from appearing again
   componentDidMount() {
     if (localStorage.getItem("isBarVisible")) {
       this.setState({ isBarVisible: false });
@@ -22,7 +22,7 @@ class Header extends Component {
 
     if (localStorage.getItem("isModalVisible")) {
       this.setState({ isModalVisible: false });
-    } 
+    }
   }
 
   //once user clicks element, data about the user's visit is stored on their browser through localStorage
