@@ -25,6 +25,7 @@ Clone the repository and ensure the latest version of [Node.js](https://nodejs.o
 Go into the project directory and install all dependecies. 
 
 ```bash
+cd NAME-OF-PROJECT
 npm install
 ```
 
