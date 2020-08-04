@@ -16,14 +16,14 @@ class App extends Component {
     };
   }
 
-  //checks if a value exists in isBarVisible and/or isModalVisible indicating whether the user has visited the page & interacted with the bar and modal before
-  //if the user has, then update the state of isBarVisible and/or isModalVisible to false to prevent announcement bar & modal from appearing again
+  //checks if string of false exists to indicate whether the user has visited the page & interacted with the bar and modal before
+  //if the user has, then update state of isBarVisible and/or isModalVisible to false to prevent announcement bar & modal from appearing again
   componentDidMount() {
-    if (localStorage.getItem("isBarVisible")) {
+    if (localStorage.getItem("isBarVisible") === 'false') {
       this.setState({ isBarVisible: false });
     }
 
-    if (localStorage.getItem("isModalVisible")) {
+    if (localStorage.getItem("isModalVisible") === 'false') {
       this.setState({ isModalVisible: false });
     }
   }
