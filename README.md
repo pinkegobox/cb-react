@@ -10,13 +10,6 @@ React toy project where I re-created the landing page of <a href="http://commerc
     * Create React App
     * CSS Modules
     * HTML5 and modern CSS3 properties (Flexbox, CSS Grids)
-    
-## To Do
-(Improvements I would like to make if I had more time)
-
-- Responsive design to make the page suitable for every screen width & device 
-- Replace class components with function components using React Hooks
-- Add CSS animations and style hover states to mirror the look of the main page more accurately
 
 ## Get Started
 
@@ -34,3 +27,10 @@ To start the development server...
 ```bash
 npm start
 ```
+
+## To Do
+(Improvements I would like to make if I had more time)
+
+- Responsive design to make the page suitable for every screen width & device 
+- Replace class components with function components using React Hooks
+- Add CSS animations and style hover states to mirror the look of the main page more accurately
