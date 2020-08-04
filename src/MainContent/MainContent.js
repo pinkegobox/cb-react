@@ -2,7 +2,7 @@ import React from "react";
 import ecommerce from "../assets/ecommerce.png";
 import Features from "../Features/Features";
 import Button from "../Button/Button";
-import styles from "../Main/Main.module.css";
+import styles from "../MainContent/MainContent.module.css";
 
 const Main = () => {
     return (
@@ -14,7 +14,7 @@ const Main = () => {
           </h2>
           <h2>Over 53,720 furniture SKUs published.</h2>
         </div>
-        <img src={ecommerce} alt="" />
+        <img src={ecommerce} alt="omni-channel marketing strategy" />
         <h2 className={styles.h2}>
           Designed to drive sales and automate operations.
         </h2>

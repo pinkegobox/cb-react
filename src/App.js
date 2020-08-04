@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Modal from "./Modal/Modal";
 import AnnouncementBar from "./AnnouncementBar/AnnouncementBar";
 import Header from './Header/Header';
-import Main from './Main/Main';
+import MainContent from './MainContent/MainContent';
 import Footer from './Footer/Footer';
 import styles from './App.module.css'
 import './App.css';
@@ -64,7 +64,7 @@ class App extends Component {
         {renderModal}
         {renderBar}
         <Header />
-        <Main />
+        <MainContent />
         <Footer />
       </div>
     );
