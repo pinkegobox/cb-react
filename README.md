@@ -2,15 +2,15 @@
 
 View the project <a href="https://commerce-bear-react.vercel.app/">here</a>.
 
-React toy project to compare and contrast the differences between popular JavaScript component frameworks React and Svelte.
+React toy project where I re-created the landing page of <a href="http://commercebear.com/">CommerceBear</a> in order to compare and contrast the differences between popular JavaScript component frameworks React and Svelte.
 
 ## Features
-- Tech and concepts used:
-* Modern ES6
-* Create React App
-* CSS Modules
-* HTML5 and CSS3
-
+- Tech and concepts used: 
+    * Modern ES6
+    * Create React App
+    * CSS Modules
+    * HTML5 and CSS3
+    
 ## To Do
 (Improvements I would like to make if I had more time)
 
