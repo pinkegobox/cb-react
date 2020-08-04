@@ -10,7 +10,7 @@ const AnnouncementBar = (props) => {
           <span role="img" aria-label="confetti emoji">
             🎉
           </span>
-          See us in the press: Furniture Today, Business of Home, and Causal
+          See us in the press: Furniture Today, Business of Home, and Casual
           Living
         </p>
       </div>
