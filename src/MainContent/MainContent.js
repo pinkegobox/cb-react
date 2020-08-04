@@ -6,7 +6,7 @@ import styles from "../MainContent/MainContent.module.css";
 
 const Main = () => {
     return (
-      <main className={`wrapper ${styles.mainContainer}`}>
+      <main className={`wrapper ${styles.container}`}>
         <div className={styles.desc}>
           <h2 className={styles.h2}>
             Generate new revenue, profits, and establish an effective

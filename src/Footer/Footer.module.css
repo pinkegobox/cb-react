@@ -1,10 +1,10 @@
-.footerContainer {
+.container {
     background-color: #F5F5F5;
     padding: 3rem 3.2rem 6.4rem;
     color: #545759;
 }
 
-.footerContainer li, .socialLinks a {
+.container li, .socialLinks a {
     color: #1c1c1c;
 }
 

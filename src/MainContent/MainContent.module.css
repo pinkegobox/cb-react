@@ -1,9 +1,9 @@
-.mainContainer {
+.container {
     padding: 96px 32px;
     color: #545759;
 }
 
-.mainContainer > *:not(:last-child) {
+.container > *:not(:last-child) {
     margin-bottom: 2.5rem;
 }
 

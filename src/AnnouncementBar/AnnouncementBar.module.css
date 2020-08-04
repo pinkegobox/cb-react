@@ -1,4 +1,4 @@
-.container {
+.announceContainer {
     background-color: #545759;
     color: #fff;
     font-weight: bold;
@@ -10,12 +10,13 @@
     z-index: 1;
 }
 
-.container span {
+.announceContainer span[role="button"] {
     background-color: rgba(0,0,0,.15);
     height: 100%;
     width: 3.5rem;
+    font-size: 1.7rem;
 }
 
-.container span:after {
+.announceContainer span[role="button"]:after {
     font-size: 1.7rem;
 }

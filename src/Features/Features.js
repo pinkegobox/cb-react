@@ -9,7 +9,7 @@ import styles from "../Features/Features.module.css";
 
 const Features = () => {
     return (
-      <ul className={styles.featuresList}>
+      <ul className={styles.list}>
         <FeatureItem
           img={multichannel}
           title={"Multi Channel Publishing"}

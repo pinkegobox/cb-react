@@ -4,7 +4,7 @@ import styles from "../AnnouncementBar/AnnouncementBar.module.css";
 
 const AnnouncementBar = (props) => {
     return (
-      <div className={styles.container}>
+      <div className={styles.announceContainer}>
         <CloseButton close={props.close} />
         <p>
           <span role="img" aria-label="confetti emoji">

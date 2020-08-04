@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className={styles.footerContainer}>
+    <footer className={styles.container}>
       <div className="wrapper">
         <NavLinks />
         <div className={styles.contact}>

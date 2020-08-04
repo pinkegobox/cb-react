@@ -7,7 +7,7 @@ const Header = () => {
      <header className={styles.banner}>
        <div className={styles.content}>
          <Navbar />
-         <div className={styles.headingContainer}>
+         <div className={styles.container}>
            <h1 className={`wrapper ${styles.h1}`}>
              Multichannel ecommerce designed for furniture manufacturers.
            </h1>
