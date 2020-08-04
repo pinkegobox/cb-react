@@ -12,7 +12,8 @@ const Modal = (props) => {
         great analysis.
       </p>
       <form action="#" className={styles.form}>
-        <input type="text" placeholder="Email Address" />
+        <label for="email" class="srOnly">Your Email Address</label>
+        <input type="text" name="email" id="email" placeholder="Email Address" />
         <input type="button" value="Sign Up" />
       </form>
       <p className={styles.formDisclaimer}>We respect your privacy.</p>

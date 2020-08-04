@@ -9,6 +9,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 
+.srOnly:not(:focus):not(:active) { 
+  position: absolute;
+  width: 1px; 
+  height: 1px; 
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(00 0 0);
+  overflow: hidden;
+}
+
 html {
   font-size: 62.5%; 
 }
