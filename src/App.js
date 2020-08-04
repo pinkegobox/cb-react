@@ -44,17 +44,19 @@ class App extends Component {
   };
 
   render() {
-   const { isModalVisible, isBarVisible } = this.state;
+    const { isModalVisible, isBarVisible } = this.state;
 
-   const renderOverlay = isModalVisible ? <div className={styles.overlay} /> : null;
+    // show transparent overlay effect over entire page if modal is visible
+    // dismiss modal if user clicks outside of it
+    const renderOverlay = isModalVisible ? <div className={styles.overlay} onClick={this.handleModalClick} /> : null;
 
-   const renderModal = isModalVisible ? (
-     <Modal close={this.handleModalClick} />
-   ) : null;
+    const renderModal = isModalVisible ? (
+      <Modal close={this.handleModalClick} />
+    ) : null;
 
-   const renderBar = isBarVisible ? (
-     <AnnouncementBar close={this.handleBarClick} />
-   ) : null;
+    const renderBar = isBarVisible ? (
+      <AnnouncementBar close={this.handleBarClick} />
+    ) : null;
 
     return (
       <div className="App">
